@@ -11,6 +11,7 @@ function nextRow(prevRow){
 
 // to return a pascal's Triangle array
 function triangle(num){
+  if(num==0) return [[1]];
   let parentRow=[1,1], pascal = Array([1],parentRow);
   for (var i = 1; i < num; i++) {
 
@@ -20,3 +21,6 @@ function triangle(num){
 }
   return pascal;
 }
+/* uncomment code below when in node env
+module.exports = triangle;
+*/
