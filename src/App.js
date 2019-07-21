@@ -4,7 +4,8 @@
 
 var btn=document.querySelector("#btn"),
 input = document.querySelector(".value"),
-showTriangle = document.querySelector(".triangle");
+showTriangle = document.querySelector(".triangle"),
+portfolio = document.querySelector(".portfolio");
 
 // for each row, we create a <p> element
 function exponentRow(arr, index){
